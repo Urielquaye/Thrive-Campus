@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Online Consultation</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+            background-image: url('img1/doctor-working-with-laptop-front-view.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;;
+    } 
+
+    header {
+      background-color: #004d66;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    header a {
+      color: #fff;
+      text-decoration: underline;
+      float: left;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+
+    .container {
+max-width: 700px;
+margin: 40px auto;
+padding: 30px;
+border-radius: 10px;
+background: rgba(255, 255, 255, 0.7); /* Transparent white */
+backdrop-filter: blur(6px); /* Optional frosted-glass effect */
+-webkit-backdrop-filter: blur(6px);
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .container h2 {
+      text-align: center;
+      color: #004d66;
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      color: #222;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      background-color: #004d66;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #007c91;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+     <a href="index.html">Back to Home</a>
+  <h1>Start Online Consultation</h1>
+</header>
+
+<div class="container">
+  <h2>Tell Us About Your Health Concern</h2>
+  <form action="#" method="POST">
+    <label for="full-name">Full Name</label>
+    <input type="text" id="full-name" name="full-name" placeholder="e.g. Emmanuel Quaye" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="e.g. emma@example.com" required>
+
+    <label for="symptoms">Describe Your Symptoms</label>
+    <textarea id="symptoms" name="symptoms" rows="5" placeholder="Briefly describe your issue..." required></textarea>
+
+    <label for="preferred-time">Preferred Consultation Time</label>
+    <input type="datetime-local" id="preferred-time" name="preferred-time" required>
+
+    <button type="submit">Submit Consultation Request</button>
+  </form>
+</div>
+
+</body>
+</html>

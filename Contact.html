@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+ <style>
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  height: auto;
+}
+
+header, .banner-header, footer {
+  background-image: url('img1/telephone-612061_1920.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #0e5db2;
+}
+
+.banner-header {
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.banner-header a {
+      color: #fff;
+      text-decoration: underline;
+      float: left;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+.banner-header h1 {
+  font-size: 2.5em;
+  color: #02070d;
+}
+
+.banner-header h2 {
+  font-weight: 300;
+  font-size: 1.2em;
+}
+/* 
+.navbar {
+  background: #006080;
+  padding: 10px 0;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-menu li {
+  position: relative;
+}
+
+.nav-menu a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-menu .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: #0086a3;
+  list-style: none;
+  padding: 10px;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown-menu li {
+  margin: 5px 0;
+} */
+
+main {
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.column {
+  flex: 1 1 45%;
+}
+
+.contact h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #004466;
+}
+
+.contact-info {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h4 {
+  margin-top: 20px;
+  color: #006080;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background: #C562AF;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.contact-form button:hover {
+  background: #B33791;
+}
+
+.subscriber {
+  background: #005f73;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  width: 250px;
+}
+
+.subscribe-form button {
+  padding: 10px;
+  border: none;
+  background: #00b4d8;
+  color: white;
+  border-radius: 0 4px 4px 0;
+}
+
+.support {
+  background: #edf6f9;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  background: #003d4d;
+}
+
+footer a {
+  color: #90e0ef;
+}
+ </style>
+<body>
+  <section class="banner-header">
+     <a href="index.html">Back to Home</a>
+    <div class="container">
+      <h1>Thrive Campus Healthcare</a></h1>
+      <h2>Have questions or need assistance? Our team is here to help. Reach out to us through any of the following channels.</h2>
+    </div>
+  </section>
+
+  <!-- <header>
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        </li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header> -->
+
+  <main>
+    <section class="contact">
+      <div class="container">
+        <h3>Contact Us</h3>
+        <div class="row">
+          <div class="column">
+            <div class="contact-info">
+              <h4>Opening Hours</h4>
+              <p>Mon-Fri: 9am - 7pm</p>
+              <p>Saturday: 9am - 4pm</p>
+              <p>Sunday: Closed</p>
+
+              <h4>Contact Info</h4>
+              <!-- <p>4137 State Street, CA, USA</p>
+              <p><a href="tel:+12345678900">+1-234-567-8900</a></p> -->
+              <p><a href="mailto:info@example.com">thrivehealthcare11@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="column">
+            <form class="contact-form">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <input type="text" placeholder="Subject" required />
+              <textarea rows="5" placeholder="Message" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+   <div class="pt-8 border-t border-gray-800 text-center">
+          <p class="text-gray-500">
+            &copy; 2025 Thrive Campus Healthcare. All rights reserved.
+          </p>
+        </div>
+  </footer>
+</body>
+</html>
